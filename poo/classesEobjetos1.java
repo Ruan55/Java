@@ -4,6 +4,7 @@ package poo;
 public class classesEobjetos1 {
 
     // Atributos de objetos são variáveis que este objeto tem
+    // (Atributos)
     String nome;
 
     // Atributo estatico
@@ -20,6 +21,7 @@ public class classesEobjetos1 {
         
     }
 
+    // (Metodos)
     static void teste(){
 
     }
@@ -38,8 +40,10 @@ public class classesEobjetos1 {
         // classesEobjetos1.declaraNome(); Não é possivel pois ele não é estatico
 
         // Unica forma de fazer isso é dessa maneira:
+        //
         classesEobjetos1 declaraNomeMain = new classesEobjetos1();
 
+        // (Objetos)
         declaraNomeMain.declaraNome();
         System.out.println(declaraNomeMain.nome);
 
