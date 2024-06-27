@@ -40,10 +40,10 @@ public class classesEobjetos1 {
         // classesEobjetos1.declaraNome(); Não é possivel pois ele não é estatico
 
         // Unica forma de fazer isso é dessa maneira:
-        //
+        //(Objetos)
         classesEobjetos1 declaraNomeMain = new classesEobjetos1();
 
-        // (Objetos)
+        
         declaraNomeMain.declaraNome();
         System.out.println(declaraNomeMain.nome);
 
