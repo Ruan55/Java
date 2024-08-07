@@ -12,7 +12,7 @@ public class Principal {
 
     public static void main(String[] args) {
     // Instanciando um objeto
-    Funcionarios funcionario = new Funcionarios();
+    Funcionarios funcionario = new Funcionarios("Ruan", 22, 3400);
     
         funcionario.setNome("Ruan");
         funcionario.setIdade(21);
