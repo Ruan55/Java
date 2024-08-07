@@ -14,6 +14,13 @@ public class Funcionarios {
     private int idade;
     private double salario;
 
+    // Constructor
+    public Funcionarios(String nome, int idade, double salario) {
+        this.nome = nome;
+        this.idade = idade;
+        this.salario = salario;
+    }
+
     public String getNome() {
         return nome;
     }
